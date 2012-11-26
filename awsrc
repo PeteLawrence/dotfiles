@@ -22,3 +22,7 @@ export AWS_AUTO_SCALING_URL=https://autoscaling.eu-west-1.amazonaws.com
 # RDS
 export AWS_RDS_HOME=$AWS_HOME/rds
 export PATH=$PATH:$AWS_RDS_HOME/bin
+
+# Elasticache
+export AWS_ELASTICACHE_HOME=$AWS_HOME/elasticache
+export PATH=$PATH:$AWS_ELASTICACHE_HOME/bin
