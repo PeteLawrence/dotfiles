@@ -4,7 +4,13 @@
 
 # Common things
 export AWS_HOME=~/aws
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
+
+SYS=`uname -s`
+if [ $SYS != "Linux" ]; then
+	export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
+else
+	export JAVA_HOME=/usr/lib/jvm/default-java
+fi
 
 
 # EC2
