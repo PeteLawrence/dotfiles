@@ -25,6 +25,10 @@ export AWS_AUTO_SCALING_HOME=$AWS_HOME/as
 export PATH=$PATH:$AWS_AUTO_SCALING_HOME/bin
 export AWS_AUTO_SCALING_URL=https://autoscaling.eu-west-1.amazonaws.com
 
+# Elastic Load Balancing
+export AWS_ELB_HOME=$AWS_HOME/elb
+export PATH=$PATH:$AWS_ELB_HOME/bin
+
 # RDS
 export AWS_RDS_HOME=$AWS_HOME/rds
 export PATH=$PATH:$AWS_RDS_HOME/bin
