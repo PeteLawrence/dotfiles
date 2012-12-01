@@ -19,6 +19,7 @@ export PATH=$PATH:$EC2_HOME/bin
 export EC2_URL=https://ec2.eu-west-1.amazonaws.com
 export EC2_PRIVATE_KEY=`ls $AWS_HOME/pk-*.pem`
 export EC2_CERT=`ls $AWS_HOME/cert-*.pem`
+export EC2_REGION='eu-west-1'
 
 # Auto Scaling
 export AWS_AUTO_SCALING_HOME=$AWS_HOME/as
