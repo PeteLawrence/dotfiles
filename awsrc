@@ -37,3 +37,7 @@ export PATH=$PATH:$AWS_RDS_HOME/bin
 # Elasticache
 export AWS_ELASTICACHE_HOME=$AWS_HOME/elasticache
 export PATH=$PATH:$AWS_ELASTICACHE_HOME/bin
+
+# Cloudwatch
+export AWS_CLOUDWATCH_HOME=$AWS_HOME/cw
+export PATH=$PATH:$AWS_CLOUDWATCH_HOME/bin
